@@ -2,7 +2,7 @@
 /*  Barra superior*/
 @font-face{
     font-family: avenir-lt-std-95-black;
-    src: url(/fonts/avenir-lt-std-95-black.otf) format('truetype');
+    src: url(./fonts/avenir-lt-std-95-black.otf) format('truetype');
 } 
 
 *{
