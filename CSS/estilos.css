@@ -2,7 +2,7 @@
 /*  Barra superior*/
 @font-face{
     font-family: avenir-lt-std-95-black;
-    src: url(./fonts/avenir-lt-std-95-black.otf) format('truetype');
+    src: url(/fonts/avenir-lt-std-95-black.otf) format('truetype');
 } 
 
 *{
@@ -21,7 +21,6 @@ body{
     position: relative;
     top: 0%;
     left: 0%;
-    background-color:rgb(136, 0, 0);
 }
 
 .header{
@@ -130,10 +129,70 @@ header  nav .titulo{
     right: -25%;
 }
 
+.escudo{
+    position: absolute;
+    top: 355px;
+    left: 80px;
+}
+
+.estrella{
+    position: absolute;
+    top: 355px;
+    left: 260px;
+}
+
+.reloj{
+    position: absolute;
+    top: 500px;
+    left: 80px;
+}
+
+.ubi{
+    position: absolute;
+    top: 0px;
+    left: 8px;
+}
+
+.cale{
+    position: absolute;
+    top: 0px;
+    left: 32%;
+}
+
+.vacu{
+    position: absolute;
+    top: 0px;
+    left: 55%;
+}
+
+.panel{
+    position: absolute;
+    top: -55px;
+    left: 0px;
+}
+
+.escudito{
+    position: absolute;
+    top: -55px;
+    left: 0px;
+}
+
+.people{
+    position: absolute;
+    top: -60px;
+    left: 0px;
+}
+
+.grafica{
+    position: absolute;
+    top: -60px;
+    left: 0px;
+}
+
 .contenedor{
     width: 750px;
     height: 713px;
-    position: relative;
+    position: absolute;
     top: 0%;
     left: 0%;
     background-color:#ffff;
@@ -205,6 +264,18 @@ header  nav .titulo{
     justify-content:center
 }
 
+.icono{
+    position: absolute;
+    top: 0px;
+    left: -45px;
+}
+
+.icono2{
+    position: absolute;
+    top: 0px;
+    left: -60px;
+}
+
 .imagenLogo{
     width: 450px;
     width: 300px;
@@ -222,10 +293,10 @@ header  nav .titulo{
     opacity: 90%;
     position: absolute;
     width: 20%;
-    height: 160px;
+    height: 200px;
     left: 50px;
     padding: 20px;
-    top: 16px;
+    top: 70px;
     display: inline-block;
     list-style: none;
     align-items: center;
@@ -236,10 +307,10 @@ header  nav .titulo{
     opacity: 90%;
     position: absolute;
     width: 20%;
-    height: 160px;
+    height: 200px;
     left: 350px;
     padding: 20px;
-    top: 16px;
+    top: 70px;
     display: inline-block;
     list-style: none;
     align-items: center;
@@ -253,7 +324,7 @@ header  nav .titulo{
     height: 160px;
     left: 650px;
     padding: 20px;
-    top: 16px;
+    top: 70px;
     display: inline-block;
     list-style: none;
     align-items: center;
@@ -268,7 +339,7 @@ header  nav .titulo{
     height: 160px;
     left: 950px;
     padding: 20px;
-    top: 16px;
+    top: 70px;
     display: inline-block;
     list-style: none;
     align-items: center;
@@ -276,7 +347,7 @@ header  nav .titulo{
 
 .cuadros{
     width: 100%;
-    height: 180px;
+    height: 250px;
     position: relative;
     background-color:rgb(255, 255, 255);
     justify-content: space-between;
@@ -346,7 +417,7 @@ header  nav .titulo{
     background: #ffff;
     opacity: 90%;
     position: absolute;
-    width: 550px;
+    width: 480px;
     height: 120px;
     left: 70px;
     padding: 10px;
@@ -354,6 +425,7 @@ header  nav .titulo{
     display: inline-block;
     list-style: none;
     align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .submenuCorto7{
@@ -396,4 +468,167 @@ header  nav .titulo{
     display: inline-block;
     list-style: none;
     align-items: center;
+}
+
+footer{
+    background-color: #EEF3FF;
+}
+
+.contenedorTextos2{
+    width: 100%;
+    height: 200px;
+    left: -5%;
+    padding: 140px;
+    position: relative;
+    background-color:rgb(255, 255, 255);
+}
+
+.ultimaSeccion{
+    width: 100%;
+    padding: 50px;
+    height: 600px;
+    position: relative;
+    background-color:rgb(255, 255, 255);
+}
+
+.contenedorImagenes2{
+    width: 45%;
+    height: 500px;
+    top: 10%;
+    position: absolute;
+    left: 55%;
+    background: linear-gradient(to right, #079AE6, #3760DA);
+}
+
+.contenedorImagenes2 img{
+    position: absolute;
+    top: -90px;
+    left: 20%;
+}
+
+.cuadro1{
+    width: 200px;
+    height: 150px;
+    top: 15%;
+    left: 8%;
+    background-color: #ffffff;
+    position: absolute;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: double;
+    border-radius: 5%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.cuadro2{
+    width: 200px;
+    height: 150px;
+    top: 15%;
+    left: 33%;
+    background-color: #ffffff;
+    position: absolute;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.cuadro3{
+    width: 200px;
+    height: 150px;
+    top: 50%;
+    left: 8%;
+    background-color: #ffffff;
+    position: absolute;
+    border-color: rgb(243, 236, 236);
+    border-width: 1px;
+    border-style: double;
+    border-radius: 5%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.cuadro4{
+    width: 200px;
+    height: 150px;
+    left: 33%;
+    top: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    border-color: rgb(243, 236, 236);
+    border-width: 1px;
+    border-style: double;
+    border-radius: 5%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+.boton2 {
+    background-color: #EEF3FF;
+    border: none;
+    color: #3656D4;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.Vaccination{
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    left: 50px;
+}
+
+.About{
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    left: 650px;
+}
+
+.Company{
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    left: 850px;
+}
+
+.Support{
+    position: relative;
+    width: 180px;
+    height: 100px;
+    left: 1050px;
+}
+
+.rights{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left: 50px;
+    top: 60px;
+}
+
+.Terms{
+    position: relative;
+    width: 180px;
+    height: 30px;
+    left: 850px;
+    top: 30px;
+}
+
+.Privacy{
+    position: relative;
+    width: 180px;
+    height: 30px;
+    left: 1100px;
+    top: 0px;
 }
