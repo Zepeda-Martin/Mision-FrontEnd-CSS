@@ -24,7 +24,7 @@ body{
 }
 
 .header{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: avenir-lt-std-95-black;
     background: #ffff;
     opacity: 90%;
     position: fixed;
@@ -34,7 +34,7 @@ body{
 }
 
 .submenuLargo{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: avenir-lt-std-95-black;
     text-decoration: none;
     background: #ffff;
     opacity: 90%;
